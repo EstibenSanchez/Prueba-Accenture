@@ -8,11 +8,15 @@
 2. Abre el proyecto en el editor de tu preferencia (puede ser IntelliJ, VS Code, Eclipse, etc.).
 3. Configura las siguientes variables de entorno para utilizar la base de datos que está alojada en AWS:
 
-DB_HOST: Endpoint de la base de datos.
-DB_PORT: Puerto de la base de datos (por defecto 3306 para MySQL).
-DB_NAME: Nombre de la base de datos.
-DB_USERNAME: Usuario de la base de datos.
-DB_PASSWORD: Contraseña de la base de datos.
+DB_HOST: Endpoint de la base de datos. database-1.cnc6a8o44ebx.us-east-2.rds.amazonaws.com
+
+DB_PORT: Puerto de la base de datos (por defecto 3306 para MySQL). 3306
+
+DB_NAME: Nombre de la base de datos. pruebaAccenture
+
+DB_USERNAME: Usuario de la base de datos. admin
+
+DB_PASSWORD: Contraseña de la base de datos. Brayan.Barragan2
 
 Estas variables se deben configurar en tu entorno de desarrollo o en el sistema operativo.
 
